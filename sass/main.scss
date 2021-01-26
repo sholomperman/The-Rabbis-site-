@@ -1,5 +1,23 @@
+@import "nav";
+@import "var";
+@import "main-body";
+@import "chapter1";
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  list-style-type: none;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.btn {
+  background-color: var(--btn-colors);
+  border-radius: 0.5rem;
+}
+.btn:hover {
+  background-color: var(--btn-hover);
 }

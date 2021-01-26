@@ -1,0 +1,44 @@
+nav {
+  background-color: blueviolet;
+  height: 4rem;
+  width: 80rem;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-shrink: length($list: 2);
+
+  & ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 26rem;
+    & a {
+      text-decoration: none;
+    }
+    & li {
+      text-align: center;
+      width: 8rem;
+      font-size: 2rem;
+      color: black;
+    }
+  }
+}
+
+.logo {
+  width: 5rem;
+}
+
+.search-btn {
+  height: 2.5rem;
+  width: 7rem;
+  margin-right: 0.5rem;
+}
+
+// @media only screen and (max-width: 565px) {
+//   nav {
+//     width: 30rem;
+//     display: flex;
+//     flex-direction: row;
+//   }
+// }
